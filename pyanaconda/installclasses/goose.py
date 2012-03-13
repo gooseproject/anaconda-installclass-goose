@@ -1,5 +1,5 @@
 #
-# ascendos.py
+# goose.py
 #
 # This file was copied from the Scientific Linux project.
 #
@@ -142,7 +142,7 @@ class InstallClass(RHELInstallClass):
             "Red Hat Enterprise Linux Client": ("Red Hat Enterprise Linux WS",
                                                 "Red Hat Enterprise Linux Desktop",
                                                 "Red Hat Enterprise Linux"),
-            "Ascendos": ("Ascendos"),
+            "GoOSe Linux": ("GoOSe Linux"),
         }
 
         if productUpgrades.has_key(productName):
