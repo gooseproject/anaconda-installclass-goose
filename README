@@ -1,0 +1,10 @@
+The anaconda-installclass-goose application is simply an addin to anaconda.
+This single python file provides tooling specific to the way we present
+tasks within anaconda during an installation. 
+
+This python class overrides the upstream definitions of tasks with the 
+definitions provided by the GoOSe Project. 
+
+Simply put, install this python file in the same location as the anaconda 
+python files, run pungi against the system and you'll get the goose.py
+options instead of the upstream or 'Minimal' task options.
